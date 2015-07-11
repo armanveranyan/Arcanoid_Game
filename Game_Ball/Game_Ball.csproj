@@ -144,6 +144,30 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-NewGame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Options.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Exit.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
