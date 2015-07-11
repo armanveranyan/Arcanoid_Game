@@ -14,7 +14,6 @@ namespace Game_Ball
         {
             get { return image; }
         }
-        private string imageName;
         private int x;
         public int X
         {
@@ -50,12 +49,11 @@ namespace Game_Ball
             get { return deltaY; }
             set { deltaY = value; }
         }
-        public Ball(string imageName,int x,int y)
+        public Ball(int x,int y)
         {
-            this.imageName = imageName;
             this.x = x;
             this.y = y;
-            image = Image.FromFile(imageName);
+            image = Properties.Resources.Moon;
             this.width = image.Width;
             this.height = image.Height;
         }

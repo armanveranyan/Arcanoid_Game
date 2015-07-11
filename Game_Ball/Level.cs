@@ -47,10 +47,10 @@ namespace Game_Ball
             get { return Level.isLevelCompleted; }
             set { Level.isLevelCompleted = value; }
         }
-        public Level(string imageName, int levelNumebr, string[,] tileSetMap)
+        public Level(int levelNumebr, string[,] tileSetMap)
         {
             this.tileSetMap = tileSetMap;
-            image = Image.FromFile(imageName);
+            image = Properties.Resources.Star;
             LevelNumber = levelNumebr;
         }
         public static void AddLevel(Level level)

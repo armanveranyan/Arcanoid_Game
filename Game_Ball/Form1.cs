@@ -39,14 +39,14 @@ namespace Game_Ball
             pictureBox_Game.MouseClick += pictureBox_Game_MouseClick;
             pictureBox_Game.MouseMove += pictureBox_Game_MouseMove;
             labelScore.Parent = pictureBox_Game;
-            sound = new SoundPlayer("Blowing.wav");
+            sound = new SoundPlayer(Properties.Resources.Blowing);
             ResizeRedraw = true;
-            ball = new Ball("Moon.png", 0, 0);
+            ball = new Ball(0, 0);
             paddle = new Game_Ball.Paddle(pictureBox_Game.Width / 2 - 60, pictureBox_Game.Height - 20, 100, 20);
             ball.X = paddle.X + paddle.Width / 2 - ball.Width / 2;
             ball.Y = paddle.Y - ball.Height;
             ball.DeltaY = 10;
-            level1 = new Level("Star.png", 1, Map);
+            level1 = new Level(1, Map);
         }
         void pictureBox_Game_MouseMove(object sender, MouseEventArgs e)
         {

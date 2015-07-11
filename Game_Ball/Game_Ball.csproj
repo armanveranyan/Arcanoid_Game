@@ -128,43 +128,31 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bin\Debug\Button-Options.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="bin\Debug\Button-NewGame.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="bin\Debug\Button-Exit.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\GameBackground.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Moon.png" />
+    <Resource Include="Resources\Moon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Star.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Button-Exit.jpg" />
+    <Resource Include="Resources\Button-Exit.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Button-NewGame.jpg" />
+    <Resource Include="Resources\Button-NewGame.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Button-Options.jpg" />
+    <Resource Include="Resources\Button-Options.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\f.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Button_Exit.jpg" />
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blowing.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
