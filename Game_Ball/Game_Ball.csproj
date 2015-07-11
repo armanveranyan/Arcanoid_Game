@@ -91,7 +91,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Game_Ball_TemporaryKey.pfx" />
+    <None Include="Game_Ball_TemporaryKey.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,13 +130,19 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\Button-Options.jpg" />
+    <Resource Include="bin\Debug\Button-Options.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\Button-NewGame.jpg" />
+    <Resource Include="bin\Debug\Button-NewGame.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\Button-Exit.jpg" />
+    <Resource Include="bin\Debug\Button-Exit.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
